@@ -7,6 +7,8 @@ Science, TR 95-041,
 https://www.cs.unc.edu/~welch/media/pdf/kalman_intro.pdf
 
 by Andrew D. Straw
+
+Re-adapted by Michael Otty
 """
 
 import numpy as np
