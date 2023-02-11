@@ -23,7 +23,6 @@ def plot_everything(x, x_hat, z, error_estimate):
     """Plot everything on a graph."""
     _, ax = plt.subplots(1, 1, sharex=True)
 
-    ax.legend()
     ax.set_title("Estimate vs. iteration step")
 
     ax.plot(z, "k+", label="Noisy measurements", alpha=0.5)
