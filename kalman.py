@@ -21,7 +21,12 @@ def main():
     plot_everything(x, x_hat, z, error_estimate)
 
 
-def plot_everything(x, x_hat, z, error_estimate):
+def plot_everything(
+    x: np.ndarray,
+    x_hat: np.ndarray,
+    z: np.ndarray,
+    error_estimate: np.ndarray,
+):
     """Plot everything on a graph."""
     _, ax = plt.subplots(1, 1, sharex=True)
 
